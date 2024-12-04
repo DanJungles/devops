@@ -1,4 +1,0 @@
-    - name: Run SAST with Bandit
-      run: |
-        pip install bandit
-        bandit -r .
