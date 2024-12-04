@@ -13,6 +13,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Run SAST with Bandit
+      run: |
+        pip install bandit
+        bandit -r .
+
     - name: Checkout repository
       uses: actions/checkout@v3
 
