@@ -1,6 +1,0 @@
-version: 2
-updates:
-  - package-ecosystem: "pip"          # Gerenciador de pacotes Python
-    directory: "/"                   # Diretório onde está o arquivo requirements.txt
-    schedule:
-      interval: "daily"              # Verifica atualizações diariamente
