@@ -5,7 +5,7 @@ for i in range(1, 12):
     print(i)
 
 # Simulando uso da dependência 'requests'
-response = requests.get("https://example.com")
+#response = requests.get("https://example.com")
 
 
 # Simulando credenciais para teste de Secret Scanning
