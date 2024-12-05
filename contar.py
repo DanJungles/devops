@@ -11,3 +11,4 @@ for i in range(1, 12):
 # Simulando credenciais para teste de Secret Scanning
 aws_access_key_id = "AKIAFAKEKEY123456789"
 aws_secret_access_key = "FAKesecretKEYexample1234567890abcd1234FAKE"
+

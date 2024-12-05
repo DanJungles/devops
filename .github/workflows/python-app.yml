@@ -13,6 +13,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - name: Run SAST with Bandit
+      run: |
+        pip install bandit
+        bandit -r .
+
     - name: Checkout repository
       uses: actions/checkout@v3
 
@@ -27,3 +32,11 @@ jobs:
 
     - name: Run Python Script
       run: python contar.py
+
+       # Publish artifact
+    - name: Create artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: python-publish-app-artifact
+        path: ./
+
