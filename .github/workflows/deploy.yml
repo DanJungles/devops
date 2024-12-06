@@ -16,7 +16,7 @@ jobs:
     - name: Setup Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.8'  # Ajuste conforme a versão usada no seu app
+        python-version: '3.10'  # Ajuste conforme a versão usada no seu app
 
     - name: Install dependencies
       run: |
