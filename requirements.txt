@@ -2,7 +2,7 @@
 # The Python Worker is managed by Azure Functions platform
 # Manually managing azure-functions-worker may cause unexpected issues
 
-logging
+#logging
 azure-functions
-requests==2.19.0
-flask==1.1.2
+#requests==2.19.0
+#flask==1.1.2
