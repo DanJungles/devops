@@ -2,7 +2,7 @@
 ##import flask
 
 # Script que conta de 1 a 11
-for i in range(1, 12):
+for i in range(1, 14):
     print(i)
 
 
